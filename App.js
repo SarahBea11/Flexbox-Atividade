@@ -27,7 +27,12 @@ export default function App() {
           </View>
 
           <View style={styles.stats}>
-
+            <View style={styles.statItem}>
+              <View style={styles.statBox}>
+                <Text>Posts</Text>
+              </View>
+              <Text style={styles.number}>67</Text>
+            </View>
             <View style={styles.statItem}>
               <View style={styles.statBox}>
                 <Text>Seguindo</Text>
